@@ -5,6 +5,7 @@ import Product from './pages/Product';
 import About from './pages/About';
 import Error from './pages/Error';
 import SharedLayout from './pages/SharedLayout';
+import SingleProduct from './pages/SingleProduct';
 
 const App = () => {
   return (
@@ -18,6 +19,9 @@ const App = () => {
         } />
         <Route path='/product' element={
           <Product/>
+        }/>
+        <Route path='/product/:productID' element={
+          <SingleProduct/>
         }/>
         <Route path='/about' element={
           <About/>

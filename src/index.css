@@ -12,8 +12,25 @@ code {
     monospace;
 }
 
+nav{
+  display: flex;
+  gap: 1rem;
+}
+
+.link{
+  text-decoration: none;
+}
+
+
 .btn{
   background-color: blue;
-  color: white;
-  
+  color: white; 
+}
+
+.link{
+  color: gray;
+}
+
+.active{
+  color: blue;
 }
