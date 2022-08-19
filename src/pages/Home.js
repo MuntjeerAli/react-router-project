@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
         
-        <section>
+        <section className='section'>
             <h2>Home Page</h2>
         </section></>
         
